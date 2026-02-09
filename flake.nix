@@ -23,7 +23,12 @@
         );
     in
     {
-      templates = { };
+      templates = {
+        rust = {
+          description = "Nix flake for rust development";
+          path = ./rust;
+        };
+      };
 
       # Set formatter for Nix
       formatter = forEachSupportedSystem ({ pkgs }: pkgs.nixfmt);
