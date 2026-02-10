@@ -1,0 +1,4 @@
+# CMake artifacts
+build*
+# Nix artifacts
+reslut*
