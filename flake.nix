@@ -24,6 +24,10 @@
     in
     {
       templates = {
+        bash = {
+          description = "Nix flake for bash development";
+          path = ./bash;
+        };
         rust = {
           description = "Nix flake for rust development";
           path = ./rust;
